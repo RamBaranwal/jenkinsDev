@@ -90,7 +90,7 @@ docker run -d \
   --name jenkins_devops_container \
   -p 4000:3000 \
   --restart unless-stopped \
-  ramram27/jenkins_devops:latest
+  rambaranwal/jenkins_devops:latest
 
 # check log
 docker ps
@@ -109,7 +109,7 @@ docker run -d \
   --name jenkins_devops_container \
   -p 4000:3000 \
   --restart unless-stopped \
-  ramram27/jenkins_devops:latest
+  rambaranwal/jenkins_devops:latest
 
 
 Copy the password and paste into Jenkins setup screen
